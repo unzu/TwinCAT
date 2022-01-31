@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UDsRS19R2Gsyqptni6diW4I29rKSoCU8KiCVuV6Z3wNkS1xonqhsqCKLWv+H347NScj2e5ywih4m3UWmA1UKvQ==",
+  "dgSpecHash": "EbB1jJsK7/M9IefvogKjU65MVWptGx9xvHQOe2c5pLLkm6tPHX6r4kUQDYXkv0xMZ5oai0T3IRx+MU49dGwiXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jonas\\Documents\\Github\\TwinCat\\MF400_WinForms\\MF400_WinForms\\MF400_WinForms.csproj",
+  "projectFilePath": "C:\\Users\\jonas\\Documents\\Github\\TwinCat\\MF400_WinForms\\MF400_Winforms\\MF400_Winforms.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jonas\\.nuget\\packages\\glmnet\\0.7.0\\glmnet.0.7.0.nupkg.sha512",
     "C:\\Users\\jonas\\.nuget\\packages\\opentk.core\\4.6.4\\opentk.core.4.6.4.nupkg.sha512",
     "C:\\Users\\jonas\\.nuget\\packages\\opentk.graphics\\4.6.4\\opentk.graphics.4.6.4.nupkg.sha512",
     "C:\\Users\\jonas\\.nuget\\packages\\opentk.mathematics\\4.6.4\\opentk.mathematics.4.6.4.nupkg.sha512",
@@ -14,5 +15,16 @@
     "C:\\Users\\jonas\\.nuget\\packages\\opentk.winforms\\4.0.0-pre.6\\opentk.winforms.4.0.0-pre.6.nupkg.sha512",
     "C:\\Users\\jonas\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Das Paket \"GlmNet 0.7.0\" wurde nicht mit dem Projektzielframework \"net6.0-windows7.0\", sondern mit \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
+      "libraryId": "GlmNet",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

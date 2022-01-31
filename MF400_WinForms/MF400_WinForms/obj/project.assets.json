@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
+      "GlmNet/0.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/GlmNet.dll": {}
+        },
+        "runtime": {
+          "lib/net40/GlmNet.dll": {}
+        }
+      },
       "OpenTK.Core/4.6.4": {
         "type": "package",
         "compile": {
@@ -126,6 +135,19 @@
     }
   },
   "libraries": {
+    "GlmNet/0.7.0": {
+      "sha512": "g3EFJOV89dWppRVT5PJ8nVYWSEIoB4yqqEZy71ryb3mfxSGrvwqxsF+XbK+J0jUgSwRIYEWHqodvtd3LchlE+w==",
+      "type": "package",
+      "path": "glmnet/0.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "glmnet.0.7.0.nupkg.sha512",
+        "glmnet.nuspec",
+        "lib/net40/GlmNet.XML",
+        "lib/net40/GlmNet.dll"
+      ]
+    },
     "OpenTK.Core/4.6.4": {
       "sha512": "YVEhUKypNHfhGe0I9ZF5Bb8YExxuo8YNvFGDczGPaI9KfESPSNxIfRVsTlWRD7Uoe+kJ7iMOanv+dCiW0UybDA==",
       "type": "package",
@@ -284,6 +306,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "GlmNet >= 0.7.0",
       "OpenTK.WinForms >= 4.0.0-pre.6"
     ]
   },
@@ -293,11 +316,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jonas\\Documents\\Github\\TwinCat\\MF400_WinForms\\MF400_WinForms\\MF400_WinForms.csproj",
-      "projectName": "MF400_WinForms",
-      "projectPath": "C:\\Users\\jonas\\Documents\\Github\\TwinCat\\MF400_WinForms\\MF400_WinForms\\MF400_WinForms.csproj",
+      "projectUniqueName": "C:\\Users\\jonas\\Documents\\Github\\TwinCat\\MF400_WinForms\\MF400_Winforms\\MF400_Winforms.csproj",
+      "projectName": "MF400_Winforms",
+      "projectPath": "C:\\Users\\jonas\\Documents\\Github\\TwinCat\\MF400_WinForms\\MF400_Winforms\\MF400_Winforms.csproj",
       "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jonas\\Documents\\Github\\TwinCat\\MF400_WinForms\\MF400_WinForms\\obj\\",
+      "outputPath": "C:\\Users\\jonas\\Documents\\Github\\TwinCat\\MF400_WinForms\\MF400_Winforms\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -326,6 +349,10 @@
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
         "dependencies": {
+          "GlmNet": {
+            "target": "Package",
+            "version": "[0.7.0, )"
+          },
           "OpenTK.WinForms": {
             "target": "Package",
             "version": "[4.0.0-pre.6, )"
@@ -352,5 +379,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Das Paket \"GlmNet 0.7.0\" wurde nicht mit dem Projektzielframework \"net6.0-windows7.0\", sondern mit \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" wiederhergestellt. Dieses Paket ist mit Ihrem Projekt möglicherweise nicht vollständig kompatibel.",
+      "libraryId": "GlmNet",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

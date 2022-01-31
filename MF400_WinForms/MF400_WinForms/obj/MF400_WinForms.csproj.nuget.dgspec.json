@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jonas\\Documents\\Github\\TwinCat\\MF400_WinForms\\MF400_WinForms\\MF400_WinForms.csproj": {}
+    "C:\\Users\\jonas\\Documents\\Github\\TwinCat\\MF400_WinForms\\MF400_Winforms\\MF400_Winforms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jonas\\Documents\\Github\\TwinCat\\MF400_WinForms\\MF400_WinForms\\MF400_WinForms.csproj": {
+    "C:\\Users\\jonas\\Documents\\Github\\TwinCat\\MF400_WinForms\\MF400_Winforms\\MF400_Winforms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonas\\Documents\\Github\\TwinCat\\MF400_WinForms\\MF400_WinForms\\MF400_WinForms.csproj",
-        "projectName": "MF400_WinForms",
-        "projectPath": "C:\\Users\\jonas\\Documents\\Github\\TwinCat\\MF400_WinForms\\MF400_WinForms\\MF400_WinForms.csproj",
+        "projectUniqueName": "C:\\Users\\jonas\\Documents\\Github\\TwinCat\\MF400_WinForms\\MF400_Winforms\\MF400_Winforms.csproj",
+        "projectName": "MF400_Winforms",
+        "projectPath": "C:\\Users\\jonas\\Documents\\Github\\TwinCat\\MF400_WinForms\\MF400_Winforms\\MF400_Winforms.csproj",
         "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonas\\Documents\\Github\\TwinCat\\MF400_WinForms\\MF400_WinForms\\obj\\",
+        "outputPath": "C:\\Users\\jonas\\Documents\\Github\\TwinCat\\MF400_WinForms\\MF400_Winforms\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "GlmNet": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            },
             "OpenTK.WinForms": {
               "target": "Package",
               "version": "[4.0.0-pre.6, )"

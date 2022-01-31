@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("MF400_WinForms")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("MF400_Winforms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("MF400_WinForms")]
-[assembly: System.Reflection.AssemblyTitleAttribute("MF400_WinForms")]
+[assembly: System.Reflection.AssemblyProductAttribute("MF400_Winforms")]
+[assembly: System.Reflection.AssemblyTitleAttribute("MF400_Winforms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

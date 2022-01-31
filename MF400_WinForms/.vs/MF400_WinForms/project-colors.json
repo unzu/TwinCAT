@@ -1,15 +1,10 @@
 {
   "Version": 1,
   "ProjectMap": {
-    "9e1007f9-341d-42b9-999a-f950abad8688": {
-      "ProjectGuid": "9e1007f9-341d-42b9-999a-f950abad8688",
-      "DisplayName": "MF400_WinForms",
+    "863d20ef-0fdc-4fe2-bf95-28e6fddc585a": {
+      "ProjectGuid": "863d20ef-0fdc-4fe2-bf95-28e6fddc585a",
+      "DisplayName": "MF400_Winforms",
       "ColorIndex": 0
-    },
-    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
-      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
-      "DisplayName": "Sonstige Dateien",
-      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1
